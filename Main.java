@@ -19,10 +19,9 @@ public class Main {
         System.out.println("\nPaying 400 from CreditAccount: " + credit.pay(400));
         System.out.println("CreditAccount balance: " + credit.getBalance());
 
-        System.out.println("\nTransferring 200 from SimpleAccount to CreditAccount: " + simple.transfer(credit, 200));
+        System.out.println("\nTransferring 200 from SimpleAccount to CreditAccount: " + simple.transfer(credit, 600));
         System.out.println("SimpleAccount balance: " + simple.getBalance());
         System.out.println("CreditAccount balance: " + credit.getBalance());
-
         System.out.println("\nAdding 500 to CreditAccount: " + credit.add(500));
         System.out.println("CreditAccount balance: " + credit.getBalance());
     }
